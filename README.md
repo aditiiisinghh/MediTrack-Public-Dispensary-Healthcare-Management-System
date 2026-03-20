@@ -107,7 +107,7 @@ cd frontendDispensary
 npm install
 npm start
 
-Frontend runs on:
+Frontend runs on:-
 
 http://localhost:3000
 📊 System Architecture
