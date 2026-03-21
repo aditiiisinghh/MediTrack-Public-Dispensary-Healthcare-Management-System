@@ -1,80 +1,95 @@
-🏥 MediTrack – Public Dispensary Healthcare Management System
+# 🏥 MediTrack – Public Dispensary Healthcare Management System
 
-A full-stack healthcare management system for public dispensaries that enables secure medicine inventory tracking, patient data management, and role-based access control.
+A full-stack healthcare management system designed to digitize and streamline operations in public dispensaries. The platform enables efficient patient record management, real-time medicine inventory tracking, and secure role-based access control.
 
-The system helps dispensaries manage patient records, monitor medicine stock, and streamline daily healthcare operations efficiently.
+---
 
-📌 Features
-👩‍⚕️ Patient Management
+## 📌 Key Features
 
-Register new patients
+### 👩‍⚕️ Patient Management
 
-Store and manage patient medical records
+* Register and manage patient profiles
+* Maintain detailed medical records
+* Track patient visit history
+* Search and update patient information
 
-Track patient visit history
+---
 
-Search and update patient details
+### 💊 Medicine Inventory Management
 
-💊 Medicine Inventory Management
+* Add, update, and monitor medicine stock
+* Track medicine usage and availability
+* Low-stock tracking to prevent shortages
+* (Future-ready) Expiry date monitoring
 
-Add and update medicine stock
+---
 
-Monitor available medicines in the dispensary
+### 👨‍⚕️ Role-Based Access Control (RBAC)
 
-Track medicine usage and availability
+Secure access based on user roles:
 
-Prevent stock shortages
+* **Admin**
 
-👨‍⚕️ Role-Based Access Control
+  * Manage users and system activity
 
-Different roles have different permissions:
+* **Doctor**
 
-Admin
+  * Access patient records
+  * Prescribe medicines
 
-Manage system users
+* **Pharmacist**
 
-Monitor overall system activity
+  * Manage inventory
+  * Dispense medicines
 
-Doctor
+---
 
-Access patient records
+### 🔐 Security Features
 
-Prescribe medicines
+* Role-based authentication
+* Protected API routes
+* Secure handling of patient data
+* Input validation and error handling
 
-Pharmacist
+---
 
-Manage medicine inventory
+## 🛠️ Tech Stack
 
-Dispense medicines to patients
+### Frontend
 
-🛠️ Tech Stack
-Frontend
+* React.js
+* HTML, CSS, JavaScript
 
-React.js
+### Backend
 
-HTML
+* Node.js
+* Express.js
 
-CSS
+### Database
 
-JavaScript
+* MongoDB
 
-Backend
+### Tools
 
-Node.js
+* Git & GitHub
 
-Express.js
+---
 
-Database
+## 🏗️ System Architecture
 
-MongoDB
+User (Admin / Doctor / Pharmacist)
+    ⬇
+Frontend (React)
+    ⬇
+Backend (Node.js + Express)
+    ⬇
+Database (MongoDB)
 
-Version Control
+---
 
-Git
+## 📂 Project Structure
 
-GitHub
-
-🏗️ Project Structure
+```
 MediTrack-Public-Dispensary-System
 │
 ├── backend
@@ -91,68 +106,81 @@ MediTrack-Public-Dispensary-System
 │   └── App.js
 │
 └── README.md
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```
 git clone https://github.com/aditiisinghh/MediTrack-Public-Dispensary-System.git
-2️⃣ Backend Setup
+cd MediTrack-Public-Dispensary-System
+```
+
+---
+
+### 2️⃣ Backend Setup
+
+```
 cd backend
 npm install
 npm start
+```
 
-Backend runs on:
+Runs on:
+👉 http://localhost:5000
 
-http://localhost:5000
-3️⃣ Frontend Setup
+---
+
+### 3️⃣ Frontend Setup
+
+```
 cd frontendDispensary
 npm install
 npm start
+```
 
-Frontend runs on:-
+Runs on:
+👉 http://localhost:3000
 
-http://localhost:3000
-📊 System Architecture
-User (Doctor / Admin / Pharmacist)
-           │
-           ▼
-      Frontend (React)
-           │
-           ▼
-     Backend (Node + Express)
-           │
-           ▼
-        MongoDB
-🔐 Security Features
+---
 
-Role-based authentication
+## 📊 Future Enhancements
 
-Secure API communication
+* 📅 Appointment scheduling system
+* 💊 Medicine expiry alerts
+* 📈 Advanced analytics dashboard
+* 🔔 SMS/email notifications
+* 🏥 Integration with digital health records
 
-Controlled access to patient data
+---
 
-🚀 Future Improvements
-
-Appointment scheduling system
-
-Medicine expiry alerts
-
-Advanced analytics dashboard
-
-SMS notifications for patients
-
-Integration with digital health records
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
-If you'd like to improve this project, feel free to fork the repository and submit a pull request.
+Feel free to fork the repository and submit a pull request.
 
-📄 License
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
 
-👩‍💻 Author
+---
 
-Aditi Singh
+## 👩‍💻 Author
 
-GitHub:
-https://github.com/aditiisinghh
+**Aditi Singh**
+
+🔗 GitHub: https://github.com/aditiisinghh
+
+---
+
+## 💡 Highlights
+
+* Built a full-stack healthcare system using MERN stack
+* Implemented role-based access for secure operations
+* Designed modular backend architecture (MVC pattern)
+* Focused on real-world usability in public healthcare systems
