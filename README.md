@@ -134,6 +134,17 @@ Runs on:
 
 ---
 
+## 📡 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /login | User Login |
+| GET | /patients | Fetch all patients |
+| POST | /patients | Add new patient |
+| GET | /medicines | Fetch medicine inventory |
+| PUT | /medicines/:id | Update medicine stock |
+
+
 ## 📊 Future Enhancements
 
 * 📅 Appointment scheduling system
