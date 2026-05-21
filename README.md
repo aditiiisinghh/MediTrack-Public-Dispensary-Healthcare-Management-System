@@ -170,10 +170,14 @@ Feel free to fork the repository and submit a pull request.
 🔗 GitHub: https://github.com/aditiiisinghh
 
 ---
-
 ## 💡 Highlights
 
-* Built a full-stack healthcare system using MERN stack
-* Implemented role-based access for secure operations
-* Designed modular backend architecture (MVC pattern)
-* Focused on real-world usability in public healthcare systems
+✔ Built a scalable MERN-stack healthcare management system
+
+✔ Implemented secure role-based authentication for Admin, Doctor, and Pharmacist
+
+✔ Designed RESTful APIs using Express.js and MongoDB
+
+✔ Followed MVC architecture for maintainable backend development
+
+✔ Improved dispensary workflow digitization through patient and inventory management
