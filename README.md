@@ -55,25 +55,12 @@ Secure access based on user roles:
 
 ## 🛠️ Tech Stack
 
-### Frontend
-
-* React.js
-* HTML, CSS, JavaScript
-
-### Backend
-
-* Node.js
-* Express.js
-
-### Database
-
-* MongoDB
-
-### Tools
-
-* Git & GitHub
-
----
+| Category | Technologies |
+|----------|--------------|
+| Frontend | React.js, HTML, CSS, JavaScript |
+| Backend | Node.js, Express.js |
+| Database | MongoDB |
+| Tools | Git, GitHub, Postman |
 
 ## 🏗️ System Architecture
 
