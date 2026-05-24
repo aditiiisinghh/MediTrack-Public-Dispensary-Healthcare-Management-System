@@ -185,12 +185,14 @@ Feel free to fork the repository and submit a pull request.
 ---
 ## 💡 Highlights
 
-✔ Built a scalable MERN-stack healthcare management system
+✔ Developed a full-stack MERN healthcare management platform
 
-✔ Implemented secure role-based authentication for Admin, Doctor, and Pharmacist
+✔ Implemented JWT-based authentication and role-based authorization
 
-✔ Designed RESTful APIs using Express.js and MongoDB
+✔ Built scalable REST APIs with Express.js and MongoDB
 
-✔ Followed MVC architecture for maintainable backend development
+✔ Designed modular MVC architecture for clean backend structure
 
-✔ Improved dispensary workflow digitization through patient and inventory management
+✔ Optimized dispensary workflow through digital patient and inventory management
+
+✔ Improved maintainability using reusable React components
