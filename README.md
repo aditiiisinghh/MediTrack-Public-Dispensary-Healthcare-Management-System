@@ -144,6 +144,19 @@ Runs on:
 | GET | /medicines | Fetch medicine inventory |
 | PUT | /medicines/:id | Update medicine stock |
 
+## 🚀 Core Functionalities
+
+✔ Patient registration and medical record management
+
+✔ Real-time medicine inventory tracking
+
+✔ Secure authentication and authorization
+
+✔ RESTful API integration
+
+✔ Responsive frontend UI using React
+
+✔ CRUD operations with MongoDB
 
 ## 📊 Future Enhancements
 
