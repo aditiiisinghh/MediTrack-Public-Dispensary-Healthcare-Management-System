@@ -158,6 +158,14 @@ Runs on:
 
 ✔ CRUD operations with MongoDB
 
+## 🧩 Challenges Faced
+
+- Implementing role-based authentication
+- Managing medicine inventory efficiently
+- Securing patient data
+- Connecting frontend with backend APIs
+
+
 ## 📊 Future Enhancements
 
 * 📅 Appointment scheduling system
