@@ -144,6 +144,7 @@ Runs on:
 | GET | /medicines | Fetch medicine inventory |
 | PUT | /medicines/:id | Update medicine stock |
 
+
 ## 🚀 Core Functionalities
 
 ✔ Patient registration and medical record management
@@ -156,7 +157,8 @@ Runs on:
 
 ✔ Responsive frontend UI using React
 
-✔ CRUD operations with MongoDB
+✔ CRUD operations with MongoDB 
+
 
 ## 🧩 Challenges Faced
 
@@ -174,21 +176,10 @@ Runs on:
 * 🔔 SMS/email notifications
 * 🏥 Integration with digital health records
 
----
-
 ## 🤝 Contributing
 
 Contributions are welcome!
 Feel free to fork the repository and submit a pull request.
-
----
-
-
-## 👩‍💻 Author
-
-**Aditi Singh**
-
-🔗 GitHub: https://github.com/aditiiisinghh
 
 ---
 ## 💡 Highlights
@@ -204,3 +195,10 @@ Feel free to fork the repository and submit a pull request.
 ✔ Optimized dispensary workflow through digital patient and inventory management
 
 ✔ Improved maintainability using reusable React components
+
+## 👩‍💻 Author
+
+**Aditi Singh**
+
+🔗 GitHub: https://github.com/aditiiisinghh
+
